@@ -1,0 +1,80 @@
+@import url(reset.css);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+}
+
+#wrapper {
+	max-width: 35em;
+	margin: 0 auto;
+}
+
+header .insert {
+	background-color: #ddd;
+	border-top: 2px solid black;
+	padding: 20px;
+}
+
+header .filter {
+	background-color: black;
+	padding: 10px;
+}
+
+main .tareas article {
+	height: 60px;
+	position: relative;
+	border-bottom: 2px solid black;
+	padding: 20px 0px 20px 20px;
+}
+
+main .tareas .urgente {
+	background-color: tomato;
+}
+
+main .tareas .diaria {
+	background-color: lightblue;
+}
+
+main .tareas .mensual {
+	background-color: lightgreen;
+}
+
+main .tareas article>a {
+	background-color: red;
+	display: inline-block;
+	padding: 21px;
+	color: white;
+	text-decoration: none;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	transition: 1s;
+}
+
+main .tareas article>a:hover {
+	width: 125px;
+}
+
+footer {
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+#mensaje {
+	background-color: red;
+	text-align: center;
+	color: white;
+}
+
+#notareas {
+	display: none;
+	padding: 20px;
+	text-align: center;
+}

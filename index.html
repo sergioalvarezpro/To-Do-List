@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>TODO's list</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/datos.js"></script>
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<header>
+			<div class="insert">
+				<form action="#" method="get">
+					<input type="text" id="tituloTarea" placeholder="Introduce la tarea">
+
+					<select id="prioridad" required>
+						<option value="">Selecciona una prioridad</option>
+						<option value="urgente">Urgente</option>
+						<option value="diaria">Diaria</option>
+						<option value="mensual">Mensual</option>
+					</select>
+
+					<input type="submit" value="Guardar" id="guardar">
+				</form>
+				<p id="mensaje"></p>
+			</div>
+			<div class="filter">
+				<select id="prioridadSelect">
+					<option value="">Filtra por Prioridad</option>
+					<option value="urgente">Urgente</option>
+					<option value="diaria">Diaria</option>
+					<option value="mensual">Mensual</option>
+				</select>
+
+				<input type="text" placeholder="Tarea a buscar" id="search">
+			</div>
+		</header><!-- /header -->
+
+		<main>
+			<section class="notareas" id="notareas">
+
+			</section>
+			<section class="tareas" id="tareas">
+
+
+				<!-- este contenido hay que comentarlo cuando empeceis a desarrollar el listado de tareas-->
+
+				<!-- <article id="1" class="urgente">
+					<h2>Titulo de la tarea 1 - Esta tarea es DUMMY</h2>
+					<a href="#" title="eliminar">Eliminar</a>
+				</article>
+
+				<article id="1" class="diaria">
+					<h2>Titulo de la tarea 1 - Esta tarea es DUMMY</h2>
+					<a href="#" title="eliminar">Eliminar</a>
+				</article>
+
+				<article id="2" class="mensual">
+					<h2>Titulo de la tarea 2 - Esta tarea es DUMMY</h2>
+					<a href="#" title="eliminar">Eliminar</a>
+				</article>
+
+				<article id="3" class="diaria">
+					<h2>Titulo de la tarea 3 - Esta tarea es DUMMY</h2>
+					<a href="#" title="eliminar">Eliminar</a>
+				</article> -->
+
+				<!-- este contenido hay que comentarlo cuando empeceis a desarrollar el listado de tareas-->
+
+			</section>
+		</main>
+
+		<footer>
+			<p>APP TODO's Proyecto Final</p>
+		</footer>
+
+
+	</div>
+
+	<script src="js/eventos.js"></script>
+	<script src="js/funciones.js"></script>
+
+</body>
+
+</html>
